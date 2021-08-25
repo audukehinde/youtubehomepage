@@ -83,3 +83,21 @@ i{
     border-radius: 50%;
     align-items: center;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #F5F5F5;
+    padding: 30px 35px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 15px; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 30px 35px;
+    background-color: #F5F5F5; */
+}
+
+.sidebar-img{
+    width: 200px;
+}
